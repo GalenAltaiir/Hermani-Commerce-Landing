@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERMANI</title>
+    <link rel="stylesheet" href="css/base.css">
+
+    <script src="https://kit.fontawesome.com/9880171930.js" crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+    <header id = "topNav">
+    <div class="logo">
+            <h1>HERMANI</h1>
+        </div>
+        
+        <nav>
+            <a href="#"><i id = "cart" class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#"><i id = "heart" class="fa-solid fa-heart"></i></a>
+            <a onclick="menu()"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="overlay" id="overlay"></div>
+
+        <div class="nav-container">
+            <nav id = "menu">
+                <a id = "close" onclick="menu()">X</a>
+                <a href="#">SPRING 2022 <i class="fa-solid fa-angle-right"></i></a>
+                <a href="#">HOME <i class="fa-solid fa-angle-right"></i></a>
+                <a href="#">WOMEN <i class="fa-solid fa-angle-right"></i></a>
+                <a href="#">MEN <i class="fa-solid fa-angle-right"></i></a>
+                <a href="#">KIDS <i class="fa-solid fa-angle-right"></i></a>
+            </nav>
+        </div>
+
+        <section class = "categories">
+            <div class="logoAnim">
+                
+                <h2>
+                    <div class="logoText" id="H">H</div>
+                    <div class="logoText" id="E">E</div>
+                    <div class="logoText" id="R">R</div>
+                    <div class="logoText" id="M">M</div>
+                    <div class="logoText" id="A">A</div>
+                    <div class="logoText" id="N">N</div>
+                    <div class="logoText" id="I">I</div>
+                    <div class="underline">SPRING 2022</div>
+                </h2>
+            </div>
+
+            <div class="bigButton" id="shopWomen">
+                <div class="overlay">tt</div>
+                <a href="#">WOMEN</a>
+            </div>
+            
+            <div class="bigButton" id="shopMen">
+                <div class="overlay"></div>
+                <a href="#">MEN</a>
+            </div>
+        </section>
+
+        <section class = "seasonal">
+            <div class="mediumButton" id = "season">
+                <div class="overlay"></div>
+                <a href="#">SPRING COLLECTION</a>
+            </div>
+        </section>
+
+        <section class = "subCategories">
+
+            <div class="smallButton" id = "clothing">
+                <div class="overlay"></div>
+                <a href="#">CLOTHING</a>
+            </div>
+
+            <div class="smallButton" id = "shoes">
+                <div class="overlay"></div>
+                <a href="#">SHOES</a>
+            </div>
+
+            <div class="smallButton" id = "bags">
+                <div class="overlay"></div>
+                <a href="#">BAGS</a>
+            </div>
+
+            <div class="smallButton" id = "home">
+                <div class="overlay"></div>
+                <a href="#">HOME</a>
+            </div>
+
+        </section>
+
+        <section class = "kids">
+            <div class="bigButton" id="shopMen">
+                <div class="overlay"></div>
+                <a href="#">KIDS</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        (C) HERMANI 2022 ALL RIGHTS RESERVED.
+    </footer>
+</body>
+</html>
